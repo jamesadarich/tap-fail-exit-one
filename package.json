@@ -4,6 +4,7 @@
   "description": "A simple TAP reporter that outputs the existing TAP to the console but ensure the exit code is one if any tests report fail or error levels.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "alsatian ./**/*.spec"
   },
   "repository": {
