@@ -25,5 +25,8 @@
   "homepage": "https://github.com/jamesrichford/tap-fail-exit-one#readme",
   "devDependencies": {
     "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "tap-parser": "^5.3.3"
   }
 }
