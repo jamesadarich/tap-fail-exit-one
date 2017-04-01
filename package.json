@@ -1,0 +1,26 @@
+{
+  "name": "tap-fail-exit-one",
+  "version": "1.0.0",
+  "description": "A simple TAP reporter that outputs the existing TAP to the console but ensure the exit code is one if any tests report fail or error levels.",
+  "main": "index.js",
+  "scripts": {
+    "test": "alsatian ./**/*.spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesrichford/tap-fail-exit-one.git"
+  },
+  "keywords": [
+    "TAP",
+    "exit",
+    "code",
+    "1",
+    "one"
+  ],
+  "author": "James Richford <=> (=)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesrichford/tap-fail-exit-one/issues"
+  },
+  "homepage": "https://github.com/jamesrichford/tap-fail-exit-one#readme"
+}
