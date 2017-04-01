@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/jamesrichford/tap-fail-exit-one/issues"
   },
-  "homepage": "https://github.com/jamesrichford/tap-fail-exit-one#readme"
+  "homepage": "https://github.com/jamesrichford/tap-fail-exit-one#readme",
+  "devDependencies": {
+    "typescript": "^2.2.2"
+  }
 }
