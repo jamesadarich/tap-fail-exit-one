@@ -9,7 +9,8 @@
   "scripts": {
     "build": "tsc",
     "pretest": "install-self",
-    "test": "alsatian ./**/*.spec.js --tap | tap-fail-exit-one"
+    "test": "alsatian ./**/*.spec.js --tap | tap-fail-exit-one",
+    "prepublish": "npm run build && npm test"
   },
   "repository": {
     "type": "git",
